@@ -8,3 +8,4 @@ Regression test for isbnlib default socket timeout Increase side effects in Flas
 * Go to `localhost:5000`
   * You should see this error `IOError: [Errno 11] Resource temporarily unavailable` on Linux, or `Errno 35` on Mac
 * Remove the `import isbnlib` from `app.py` and you should see a nice tux image.
+
