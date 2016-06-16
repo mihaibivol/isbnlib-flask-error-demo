@@ -1,5 +1,11 @@
+language: python
+
+addons:
+  apt:
+    packages:
+      - links2
+
 install:
-  - "sudo apt-get install links2 -y"
   - "pip install -r requirements.txt"
 before_script:
   - "export DISPLAY=:99.0"
