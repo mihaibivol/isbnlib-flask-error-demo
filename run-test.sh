@@ -2,7 +2,7 @@
 
 ./app.py &> /tmp/flasklog.log &
 sleep 3
-links2 -g http://localhost:5000 &> /dev/null &
+links2 -g http://localhost:5000 &
 sleep 3
 kill $!
 
