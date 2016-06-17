@@ -1,5 +1,5 @@
 # isbnlib-flask-error-demo
-![Build Status](https://api.travis-ci.org/mihaibivol/isbnlib-flask-error-demo.svg) - Means that the error is still there :)
+![Build Status](https://travis-ci.org/mihaibivol/isbnlib-flask-error-demo.svg?branch=master) - Means that the error is still there :)
 
 Regression test for isbnlib default socket timeout Increase side effects in Flask app
 
