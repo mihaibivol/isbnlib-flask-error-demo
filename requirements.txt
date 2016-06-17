@@ -1,2 +1,2 @@
 flask
-isbnlib
+-e git+https://github.com/xlcnd/isbnlib.git@dev#egg=isbnlib
