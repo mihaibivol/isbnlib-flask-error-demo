@@ -16,3 +16,12 @@ or
 
 * Install `phantomjs`
 * `./run-test.sh`
+
+## Maybe you got here by searching for this
+
+* The main culprit is a call to `socket.setdefaulttimeout` before loading the Flask server and debugger
+* If you see this error in debug mode and you don't know why
+```
+IOError: [Errno 11] Resource temporarily unavailable
+```
+Make sure that you, or any library that you import does not call `socket.setdefaulttimeout` before.
